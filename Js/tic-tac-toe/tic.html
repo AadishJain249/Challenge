@@ -1,29 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title></title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="./tic.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="main">
-      <div id="main1">
-        <div id="box1"></div>
-        <div id="box2"></div>
-        <div id="box3"></div>
-      </div>
-      <div id="main2">
-        <div id="box4"></div>
-        <div id="box5"></div>
-        <div id="box6"></div>
-      </div>
-      <div id="main3">
-        <div id="box7"></div>
-        <div id="box8"></div>
-        <div id="box9"></div>
-      </div>
-    </div>
-  </body>
-  <script src="./tic.js"></script>
+<html>
+	
+<head>
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<!-- CSS file Included -->
+	<link rel="stylesheet" type="text/css" href="tic.css">
+	<!-- JavaScript file included -->
+	<script src="tic.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<h1>TIC TAC TOE</h1>
+		<p id="ins">
+			Game starts by just Tap on
+			box<br><br>First Player starts as
+			<b>Player X </b>And Second Player as
+			<b>Player 0</b>
+		</p>
+		<br><br>
+		<div class = "ui">
+			<div class="row">
+				<input type="text" id= "b1"
+					class="cell" onclick="myfunc_3(); myfunc();"
+					readonly>
+				<input type="text" id= "b2"
+					class="cell" onclick="myfunc_4(); myfunc();"
+					readonly>
+				<input type="text" id= "b3" class="cell"
+					onclick="myfunc_5(); myfunc();"
+					readonly>
+			</div>
+			<div class="row">
+				<input type="text" id= "b4"
+					class="cell" onclick="myfunc_6(); myfunc();"
+					readonly>
+				<input type="text" id= "b5"
+					class="cell" onclick="myfunc_7(); myfunc();"
+					readonly>
+				<input type="text" id= "b6"
+					class="cell" onclick="myfunc_8(); myfunc();"
+					readonly>
+			</div>
+			<div class="row">
+				<input type="text" id= "b7"
+					class="cell" onclick="myfunc_9(); myfunc();"
+					readonly>
+				<input type="text" id= "b8"
+					class="cell" onclick="myfunc_10();myfunc();"
+					readonly>
+				<input type="text" id= "b9"
+					class="cell" onclick="myfunc_11();myfunc();"
+					readonly>
+			</div>
+		</div>
+		<br><br><br>
+		
+		<button id="but" onclick="myfunc_2()">
+			RESET
+		</button>
+		<br><br>
+		<p id="print"></p>
+	</div>
+</body>
+
 </html>
