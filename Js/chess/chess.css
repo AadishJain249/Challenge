@@ -5,3 +5,27 @@
     margin-left: 35%;
     margin-top: 5%;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* .board{
+    margin:auto;
+    margin-top: 0.5rem;
+    display: grid;
+    --size: 8;
+    height:680px;
+    grid-template-columns: repeat(var(--size), 1fr);
+    grid-template-rows: repeat(var(--size), 1fr);
+    gap: 1px;
+    padding: 1px;
+    width: 700px;
+    border-radius: 3px;
+    background-color: black;
+    padding:10px;
+}
+.box {
+    --x: 0;
+    --y: 0;
+} */
